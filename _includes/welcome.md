@@ -1,28 +1,29 @@
-# Welcome
+# Selamat datang
 
-There's a lot of outdated information on the Web that leads new PHP users astray,
-propagating bad practices and insecure code. _PHP: The Right Way_ is an easy-to-read,
-quick reference for PHP popular coding standards, links to authoritative tutorials
-around the Web, and what the contributors consider to be best practices at present.
+Ada banyak informasi usang di Web yang menyesatkan pengguna PHP baru, menyebarkan 
+praktik buruk dan kode yang tidak aman. _PHP: The Right Way_ adalah referensi cepat 
+dan mudah dibaca untuk standar pengodean PHP yang populer, tautan ke tutorial resmi 
+di seluruh Web, dan apa yang dianggap kontributor sebagai praktik terbaik (_best practices_) saat ini.
 
-_There is no canonical way to use PHP_. This website aims to introduce new PHP
-developers to some topics which they may not discover until it is too late, and aims
-to give seasoned pros some fresh ideas on those topics they've been doing for years
-without ever reconsidering. This website will also not tell you which tools to use, but
-instead offer suggestions for multiple options, when possible explaining the differences
-in approach and use-case.
+_Tidak ada cara resmi untuk menggunakan PHP_. Situs web ini bertujuan untuk memperkenalkan 
+kepada pengembang PHP baru pada beberapa topik yang mungkin tidak mereka temukan hingga terlambat, 
+dan bertujuan untuk memberikan ide-ide segar kepada para profesional berpengalaman tentang 
+topik-topik yang telah mereka lakukan selama bertahun-tahun tanpa pernah mempertimbangkannya kembali. 
+Situs web ini juga tidak akan memberi tahu Anda alat mana yang harus digunakan, tetapi menawarkan 
+saran untuk beberapa opsi, jika memungkinkan, menjelaskan perbedaan dalam pendekatan dan kasus penggunaan.
 
-This is a living document and will continue to be updated with more helpful information
-and examples as they become available.
+Ini adalah dokumen yang terus berkembang dan akan terus diperbarui dengan informasi dan contoh yang lebih 
+bermanfaat seiring dengan tersedianya informasi dan contoh tersebut.
 
-## Translations
+## Terjemahan
 
-_PHP: The Right Way_ is translated into many different languages:
+_PHP: The Right Way_ diterjemahkan ke dalam banyak bahasa berbeda:
 
 * [English](https://www.phptherightway.com)
 * [Español](https://phpdevenezuela.github.io/php-the-right-way)
 * [Français](https://eilgin.github.io/php-the-right-way/)
 * [Indonesia](https://id.phptherightway.com)
+* [Indonesia, dokumen ini](https://binexa.github.io/php-the-right-way/)
 * [Italiano](https://it.phptherightway.com)
 * [Polski](https://pl.phptherightway.com)
 * [Português do Brasil](https://br.phptherightway.com)
@@ -41,13 +42,13 @@ _PHP: The Right Way_ is translated into many different languages:
 * [简体中文](https://laravel-china.github.io/php-the-right-way/)
 * [繁體中文](https://laravel-taiwan.github.io/php-the-right-way)
 
-## Book
+## Buku
 
-The most recent version of _PHP: The Right Way_ is also available in PDF, EPUB and MOBI formats. [Go to Leanpub][1]
+Versi terbaru dari _PHP: The Right Way_ dalam bahasa Ingris juga tersedia dalam format PDF, EPUB, dan MOBI. [Kunjungi Leanpub][1]
 
-## How to Contribute
+## Bagaimana Cara Berkontribusi
 
-Help make this website the best resource for new PHP programmers! [Contribute on GitHub][2]
+Bantu jadikan situs web ini sebagai sumber daya terbaik bagi programmer PHP baru! [Berkontribusi di GitHub][2]
 
 [1]: https://leanpub.com/phptherightway
-[2]: https://github.com/codeguy/php-the-right-way/tree/gh-pages
+[2]: https://github.com/binexa/php-the-right-way/tree/gh-pages
