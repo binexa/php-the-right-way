@@ -15,7 +15,7 @@ saran untuk beberapa opsi, jika memungkinkan, menjelaskan perbedaan dalam pendek
 Ini adalah dokumen yang terus berkembang dan akan terus diperbarui dengan informasi dan contoh yang lebih 
 bermanfaat seiring dengan tersedianya informasi dan contoh tersebut.
 
-## Terjemahan
+## Terjemahan {#translations}
 
 _PHP: The Right Way_ diterjemahkan ke dalam banyak bahasa berbeda:
 
@@ -46,7 +46,7 @@ _PHP: The Right Way_ diterjemahkan ke dalam banyak bahasa berbeda:
 
 Versi terbaru dari _PHP: The Right Way_ dalam bahasa Ingris juga tersedia dalam format PDF, EPUB, dan MOBI. [Kunjungi Leanpub][1]
 
-## Bagaimana Cara Berkontribusi
+## Bagaimana Cara Berkontribusi {#how-to-contribute}
 
 Bantu jadikan situs web ini sebagai sumber daya terbaik bagi programmer PHP baru! [Berkontribusi di GitHub][2]
 
