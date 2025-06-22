@@ -1,4 +1,5 @@
 ---
+title:   Pengaturan macOS
 isChild: true
 anchor:  mac_setup
 ---
