@@ -1,14 +1,20 @@
 ---
-title:   Use the Current Stable Version (8.4)
+title:   Gunakan Versi Stabil Saat Ini (8.4)
 isChild: true
 anchor:  use_the_current_stable_version
 ---
 
-## Use the Current Stable Version (8.4) {#use_the_current_stable_version_title}
+## Gunakan Versi Stabil Saat Ini (8.4) {#use_the_current_stable_version_title}
 
-If you are getting started with PHP, start with the current stable release of [PHP 8.4][php-release]. PHP 8.x adds many [new features](#language_highlights) over the older 7.x and 5.x versions. The engine has been largely re-written, and PHP is now even quicker than older versions. PHP 8 is a major update of the language and contains many new features and optimizations.
+Jika Anda baru memulai dengan PHP, mulailah dengan rilis stabil saat ini [PHP 8.4][php-release]. 
+PHP 8.x menambahkan banyak [fitur baru](#language_highlights) dibanding versi 7.x dan 5.x yang lama. 
+Mesinnya sebagian besar telah ditulis ulang, dan PHP kini bahkan lebih cepat dibanding versi yang lama. 
+PHP 8 merupakan pembaruan besar (_major update_) bahasa tersebut dan berisi banyak fitur dan pengoptimalan baru.
 
 You should try to upgrade to the latest stable version quickly - PHP 7.4 [is already End of Life][php-supported]. Upgrading is easy, as there are not many backwards compatibility breaks [PHP 8.0][php-bc-80], [PHP 8.1][php-bc-81], [PHP 8.2][php-bc-82], [PHP 8.3][php-bc-83], [PHP 8.4][php-bc-84]. If you are not sure which version a function or feature is in, you can check the PHP documentation on the [php.net][php-docs] website.
+
+Anda harus mencoba meng-upgrade ke versi stabil terbaru secepatnya - PHP 7.4 [sudah _End of Life_][php-supported]. 
+Upgrade mudah dilakukan, karena tidak banyak masalah kompatibilitas mundur (backwards compatibility) [PHP 8.0][php-bc-80], [PHP 8.1][php-bc-81], [PHP 8.2][php-bc-82], [PHP 8.3][php-bc-83], [PHP 8.4][php-bc-84]. Jika Anda tidak yakin versi mana yang digunakan untuk fungsi atau fitur, Anda dapat memeriksa dokumentasi PHP di situs web [php.net][php-docs].
 
 [php-release]: https://www.php.net/downloads.php
 [php-supported]: https://www.php.net/supported-versions.php
