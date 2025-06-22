@@ -11,8 +11,6 @@ PHP 8.x menambahkan banyak [fitur baru](#language_highlights) dibanding versi 7.
 Mesinnya sebagian besar telah ditulis ulang, dan PHP kini bahkan lebih cepat dibanding versi yang lama. 
 PHP 8 merupakan pembaruan besar (_major update_) bahasa tersebut dan berisi banyak fitur dan pengoptimalan baru.
 
-You should try to upgrade to the latest stable version quickly - PHP 7.4 [is already End of Life][php-supported]. Upgrading is easy, as there are not many backwards compatibility breaks [PHP 8.0][php-bc-80], [PHP 8.1][php-bc-81], [PHP 8.2][php-bc-82], [PHP 8.3][php-bc-83], [PHP 8.4][php-bc-84]. If you are not sure which version a function or feature is in, you can check the PHP documentation on the [php.net][php-docs] website.
-
 Anda harus mencoba meng-upgrade ke versi stabil terbaru secepatnya - PHP 7.4 [sudah _End of Life_][php-supported]. 
 Upgrade mudah dilakukan, karena tidak banyak masalah kompatibilitas mundur (backwards compatibility) [PHP 8.0][php-bc-80], [PHP 8.1][php-bc-81], [PHP 8.2][php-bc-82], [PHP 8.3][php-bc-83], [PHP 8.4][php-bc-84]. Jika Anda tidak yakin versi mana yang digunakan untuk fungsi atau fitur, Anda dapat memeriksa dokumentasi PHP di situs web [php.net][php-docs].
 
