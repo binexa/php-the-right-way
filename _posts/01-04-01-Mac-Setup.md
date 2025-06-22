@@ -3,21 +3,24 @@ isChild: true
 anchor:  mac_setup
 ---
 
-## macOS Setup {#mac_setup_title}
+## Pengaturan macOS {#mac_setup_title}
 
-macOS 12 (Monterey) and later does not come prepackaged with PHP. Earlier macOS versions include PHP but are behind the latest stable release. There are multiple ways to install the latest PHP version on macOS.
+macOS 12 (Monterey) dan yang lebih baru tidak disertai PHP. macOS versi sebelumnya menyertakan PHP tetapi lebih 
+lambat dari rilis stabil terbaru. Ada beberapa cara untuk menginstal versi PHP terbaru di macOS.
 
-### Install PHP via Homebrew
+### Instal PHP melalui Homebrew
 
-[Homebrew] is a package manager for macOS that helps you easily install PHP and various extensions. The Homebrew core repository provides "formulae" for PHP 8.1, 8.2, 8.3 and 8.4. Install the latest version with this command:
+[Homebrew] adalah pengelola paket untuk macOS yang membantu Anda menginstal PHP dan berbagai ekstensi dengan mudah. 
+​​Repositori inti Homebrew menyediakan "formulae" untuk PHP 8.1, 8.2, 8.3, dan 8.4. Instal versi terbaru dengan perintah ini:
 
 ```
 brew install php
 ```
 
-You can switch between Homebrew PHP versions by modifying your `PATH` variable. Alternatively, you can use [brew-php-switcher][brew-php-switcher] to switch PHP versions automatically.
+Anda dapat beralih di antara versi PHP Homebrew dengan memodifikasi variabel `PATH` Anda. 
+Atau, Anda dapat menggunakan [brew-php-switcher][brew-php-switcher] untuk beralih versi PHP secara otomatis.
 
-You can also switch between PHP versions manually by unlinking and linking the wanted version:
+Anda juga dapat beralih antar versi PHP secara manual dengan memutuskan tautan (_unlink_) dan menautkan (_link_) versi yang diinginkan:
 
 ```
 brew unlink php
@@ -29,23 +32,21 @@ brew unlink php
 brew link --overwrite php@8.3
 ```
 
-### Install PHP via Macports
+### Instal PHP melalui Macports
 
-The [MacPorts] Project is an open-source community initiative to design an
-easy-to-use system for compiling, installing, and upgrading either
-command-line, X11 or Aqua based open-source software on the macOS operating
-system.
+Proyek [MacPorts] merupakan inisiatif komunitas sumber terbuka untuk merancang sistem yang mudah digunakan 
+untuk mengkompilasi, menginstal, dan memutakhirkan perangkat lunak sumber terbuka (_open source_) berbasis baris perintah (_command line_), X11, atau Aqua pada sistem operasi macOS.
 
-MacPorts supports pre-compiled binaries, so you don't need to recompile every
-dependency from the source tarball files, it saves your life if you don't
-have any package installed on your system.
+MacPorts mendukung biner yang telah dikompilasi sebelumnya, jadi Anda tidak perlu mengkompilasi ulang setiap
+ketergantungan dari berkas tarball sumber, ini akan menyelamatkan hidup Anda jika Anda tidak
+memiliki paket apa pun yang terinstal di sistem Anda.
 
-At this point, you can install `php54`, `php55`, `php56`, `php70`, `php71`, `php72`, `php73`, `php74`, `php80`, `php81`, `php82` or `php83` using the `port install` command, for example:
+Pada titik ini, Anda dapat menginstal `php54`, `php55`, `php56`, `php70`, `php71`, `php72`, `php73`, `php74`, `php80`, `php81`, `php82` atau `php83` menggunakan perintah `port install`, misalnya:
 
     sudo port install php74
     sudo port install php83
 
-And you can run `select` command to switch your active PHP:
+Dan Anda dapat menjalankan perintah `select` untuk mengganti PHP aktif Anda:
 
     sudo port select --set php php83
 
