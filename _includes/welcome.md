@@ -23,7 +23,7 @@ _PHP: The Right Way_ diterjemahkan ke dalam banyak bahasa berbeda:
 * [Español](https://phpdevenezuela.github.io/php-the-right-way)
 * [Français](https://eilgin.github.io/php-the-right-way/)
 * [Indonesia](https://id.phptherightway.com)
-* [Indonesia, dokumen ini](https://binexa.github.io/php-the-right-way/)
+* [Indonesia, web ini](https://binexa.github.io/php-the-right-way/)
 * [Italiano](https://it.phptherightway.com)
 * [Polski](https://pl.phptherightway.com)
 * [Português do Brasil](https://br.phptherightway.com)
