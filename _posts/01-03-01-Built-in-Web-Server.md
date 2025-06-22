@@ -1,19 +1,19 @@
 ---
-title:   Built-in Web Server
+title:   Server Web Bawaan
 isChild: true
 anchor:  builtin_web_server
 ---
 
-## Built-in web server {#builtin_web_server_title}
+## Server web bawaan {#builtin_web_server_title}
 
-With PHP 5.4 or newer, you can start learning PHP without installing and configuring a full-fledged web server.
-To start the server, run the following command from your terminal in your project's web root:
+Dengan PHP 5.4 atau yang lebih baru, Anda dapat mulai mempelajari PHP tanpa menginstal dan mengonfigurasi server web yang lengkap.
+Untuk memulai server, jalankan perintah berikut dari terminal di _root_ web proyek Anda:
 
 {% highlight console %}
 > php -S localhost:8000
 {% endhighlight %}
 
-* [Learn about the built-in, command line web server][cli-server]
+* [Pelajari tentang server web bawwan dengan baris perintah (_command line_)][cli-server]
 
 
 [cli-server]: https://www.php.net/features.commandline.webserver
