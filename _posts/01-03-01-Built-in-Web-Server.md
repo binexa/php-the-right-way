@@ -13,7 +13,7 @@ Untuk memulai server, jalankan perintah berikut dari terminal di _root_ web proy
 > php -S localhost:8000
 {% endhighlight %}
 
-* [Pelajari tentang server web bawwan dengan baris perintah (_command line_)][cli-server]
+* [Pelajari tentang server web bawaan dengan baris perintah (_command line_)][cli-server]
 
 
 [cli-server]: https://www.php.net/features.commandline.webserver
