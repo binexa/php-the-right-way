@@ -1,27 +1,30 @@
 ---
+title  : Pengaturan Windows
 isChild: true
-anchor:  windows_setup
+anchor : windows_setup
 ---
 
-## Windows Setup {#windows_setup_title}
+## Pengaturan Windows {#windows_setup_title}
 
-You can download the binaries from [windows.php.net/download][php-downloads]. After the extraction of PHP, it is recommended to set the [PATH][windows-path] to the root of your PHP folder (where php.exe is located) so you can execute PHP from anywhere.
+Anda dapat mengunduh biner dari [windows.php.net/download][php-downloads]. Setelah mengekstrak PHP, disarankan 
+untuk menyetel [PATH][windows-path] ke akar folder PHP Anda (tempat php.exe berada) sehingga Anda dapat 
+menjalankan PHP dari mana saja.
 
-For learning and local development, you can use the built in webserver with PHP 5.4+ so you don't need to worry about
-configuring it. If you would like an "all-in-one" which includes a full-blown webserver and MySQL too then tools such
-as the [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] and [WAMP][wamp] will
-help get a Windows development environment up and running fast. That said, these tools will be a little different from
-production so be careful of environment differences if you are working on Windows and deploying to Linux.
+Untuk pembelajaran dan pengembangan lokal, Anda dapat menggunakan webserver bawaan dengan PHP 5.4+ 
+sehingga Anda tidak perlu khawatir tentang konfigurasinya. Jika Anda menginginkan "all-in-one" yang mencakup 
+webserver lengkap dan MySQL, maka alat seperti [XAMPP][xampp], [EasyPHP][easyphp], [OpenServer][openserver] 
+dan [WAMP][wamp] akan membantu menyiapkan dan menjalankan lingkungan pengembangan Windows dengan cepat. 
+Meskipun demikian, alat-alat ini akan sedikit berbeda dari produksi, jadi berhati-hatilah dengan perbedaan 
+lingkungan jika Anda bekerja di Windows dan menerapkannya di Linux.
 
-If you need to run your production system on Windows, then IIS7 will give you the most stable and best performance. You
-can use [phpmanager][phpmanager] (a GUI plugin for IIS7) to make configuring and managing PHP simple. IIS7 comes with
-FastCGI built in and ready to go, you just need to configure PHP as a handler. For support and additional resources
-there is a [dedicated area on iis.net][php-iis] for PHP.
+Jika Anda perlu menjalankan sistem produksi di Windows, maka IIS7 akan memberi Anda kinerja yang paling stabil 
+dan terbaik. Anda dapat menggunakan [phpmanager][phpmanager] (plugin GUI untuk IIS7) untuk mempermudah konfigurasi 
+dan pengelolaan PHP. IIS7 dilengkapi dengan FastCGI bawaan dan siap digunakan, Anda hanya perlu mengonfigurasi PHP 
+sebagai pengendali. Untuk dukungan dan sumber daya tambahan, terdapat [area khusus di iis.net][php-iis] untuk PHP.
 
-Generally running your application on different environment in development and production can lead to strange bugs popping up when you go
-live. If you are developing on Windows and deploying to Linux (or anything non-Windows) then you should consider using a [Virtual Machine](/#virtualization_title).
+Umumnya menjalankan aplikasi Anda pada lingkungan yang berbeda dalam pengembangan dan produksi dapat menyebabkan munculnya bug aneh saat Anda mulai menggunakannya. Jika Anda mengembangkan aplikasi di Windows dan menerapkannya di Linux (atau apa pun yang bukan Windows), maka Anda harus mempertimbangkan untuk menggunakan [Mesin Virtual](/#virtualization_title).
 
-Chris Tankersley has a very helpful blog post on what tools he uses to do [PHP development using Windows][windows-tools].
+Chris Tankersley memiliki posting blog yang sangat bermanfaat tentang alat apa yang ia gunakan untuk melakukan [pengembangan PHP menggunakan Windows][windows-tools].
 
 [easyphp]: https://www.easyphp.org/
 [phpmanager]: http://phpmanager.codeplex.com/
