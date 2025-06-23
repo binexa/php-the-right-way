@@ -1,30 +1,31 @@
 ---
+title  : Paradigma Pemrograman
 isChild: true
 anchor:  programming_paradigms
 ---
 
-## Programming Paradigms {#programming_paradigms_title}
+## Paradigma Pemrograman {#programming_paradigms_title}
 
-PHP is a flexible, dynamic language that supports a variety of programming techniques. It has evolved dramatically over
-the years, notably adding a solid object-oriented model in PHP 5.0 (2004), anonymous functions and namespaces in
-PHP 5.3 (2009), and traits in PHP 5.4 (2012).
+PHP adalah bahasa yang fleksibel dan dinamis yang mendukung berbagai teknik pemrograman. Bahasa ini telah berkembang 
+secara dramatis selama bertahun-tahun, terutama dengan menambahkan model berorientasi objek yang solid di PHP 5.0 (2004), 
+fungsi anonim dan namespace di PHP 5.3 (2009), dan trait di PHP 5.4 (2012).
 
-### Object-oriented Programming
+### Pemrograman Berorientasi Obyek
 
-PHP has a very complete set of object-oriented programming features including support for classes, abstract classes,
-interfaces, inheritance, constructors, cloning, exceptions, and more.
+PHP memiliki seperangkat fitur pemrograman berorientasi objek yang sangat lengkap termasuk dukungan untuk kelas (_class_), 
+kelas abstrak (_abstract class_), antarmuka (_interfaces_), pewarisan (_inheritance_), konstruktor (_constructor_), kloning (_cloning_), pengecualian (_exception_), dan banyak lagi.
 
 * [Read about Object-oriented PHP][oop]
 * [Read about Traits][traits]
 
-### Functional Programming
+### Pemrograman Functional
 
-PHP supports first-class functions, meaning that a function can be assigned to a variable. Both user-defined and
-built-in functions can be referenced by a variable and invoked dynamically. Functions can be passed as arguments to
-other functions (a feature called _Higher-order Functions_) and functions can return other functions.
+PHP mendukung fungsi kelas satu, yang berarti bahwa suatu fungsi dapat ditetapkan ke suatu variabel. 
+Baik fungsi yang ditentukan pengguna maupun fungsi bawaan dapat direferensikan oleh suatu variabel dan dipanggil secara dinamis. 
+Fungsi dapat diteruskan sebagai argumen ke fungsi lain (fitur yang disebut _Fungsi Tingkat Tinggi_) dan fungsi dapat mengembalikan fungsi lain.
 
-Recursion, a feature that allows a function to call itself, is supported by the language, but most PHP code
-is focused on iteration.
+Rekursi, sebuah fitur yang memungkinkan suatu fungsi memanggil dirinya sendiri, didukung oleh bahasa tersebut, 
+tetapi sebagian besar kode PHP difokuskan pada iterasi.
 
 New anonymous functions (with support for closures) are present since PHP 5.3 (2009).
 
