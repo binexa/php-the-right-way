@@ -1,18 +1,18 @@
 ---
-title:   Common Directory Structure
+title:   Struktur Direktori Umum
 isChild: true
 anchor:  common_directory_structure
 ---
 
-## Common Directory structure {#common_directory_structure_title}
+## Struktur Direktori Umum {#common_directory_structure_title}
 
-A common question among those starting out with writing programs for the web is, "where do I put my stuff?" Over the years, this answer has consistently been "where the `DocumentRoot` is." Although this answer is not complete, it's a great place to start.
+Pertanyaan umum di antara mereka yang baru mulai menulis program untuk web adalah, "di mana saya meletakkan barang-barang saya?" Selama bertahun-tahun, jawaban ini secara konsisten adalah "di mana `DocumentRoot` berada." Meskipun jawaban ini tidak lengkap, ini adalah tempat yang bagus untuk memulai.
 
-For security reasons, configuration files should not be accessible by a site's visitors; therefore, public scripts are kept in a public directory and private configurations and data are kept outside of that directory.
+Demi alasan keamanan, berkas konfigurasi tidak boleh diakses oleh pengunjung situs; oleh karena itu, skrip publik disimpan dalam direktori publik dan konfigurasi serta data pribadi disimpan di luar direktori tersebut.
 
-For each team, CMS, or framework one works in, a standard directory structure is used by each of those entities. However, if one is starting a project alone, knowing which filesystem structure to use can be daunting.
+Untuk setiap tim, CMS, atau kerangka kerja tempat seseorang bekerja, struktur direktori standar digunakan oleh masing-masing entitas tersebut. Namun, jika seseorang memulai proyek sendirian, mengetahui struktur sistem berkas mana yang akan digunakan bisa jadi sulit.
 
-[Paul M. Jones] has done some fantastic research into common practices of tens of thousands of github projects in the realm of PHP. He has compiled a standard file and directory structure, the [Standard PHP Package Skeleton], based on this research. In this directory structure, `DocumentRoot` should point to `public/`, unit tests should be in the `tests/` directory, and third party libraries, as installed by [composer], belong in the `vendor/` directory. For other files and directories, abiding by the [Standard PHP Package Skeleton] will make the most sense to contributors of a project.
+[Paul M. Jones] telah melakukan beberapa penelitian fantastis tentang praktik umum puluhan ribu proyek github di ranah PHP. Ia telah menyusun struktur berkas dan direktori standar, [Standard PHP Package Skeleton], berdasarkan penelitian ini. Dalam struktur direktori ini, `DocumentRoot` harus mengarah ke `public/`, pengujian unit harus berada di direktori `tests/`, dan pustaka pihak ketiga, sebagaimana diinstal oleh [composer], berada di direktori `vendor/`. Untuk berkas dan direktori lain, mematuhi [Standard PHP Package Skeleton] akan lebih masuk akal bagi kontributor proyek.
 
 [Paul M. Jones]: https://paul-m-jones.com/
 [Standard PHP Package Skeleton]: https://github.com/php-pds/skeleton
