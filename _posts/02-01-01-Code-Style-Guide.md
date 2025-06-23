@@ -3,7 +3,7 @@ title : Panduan Gaya Penulisan Kode
 anchor: code_style_guide
 ---
 
-# Panduan Gaya Penulisan Kode (_Code Style Guide_) {#code_style_guide_title}
+# Panduan Gaya Penulisan Kode {#code_style_guide_title}
 
 Komunitas PHP sangat besar dan beragam, terdiri dari pustaka (_libraries_), kerangka kerja (_frameworks_), 
 dan komponen (_compinents_) yang tak terhitung banyaknya. Pengembang PHP biasanya memilih beberapa di antaranya 
