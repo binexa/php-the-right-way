@@ -51,27 +51,28 @@ Dan Anda dapat menjalankan perintah `select` untuk mengganti PHP aktif Anda:
 
     sudo port select --set php php83
 
-### Install PHP via phpbrew
+### Instal PHP melalui phpbrew
 
-[phpbrew] is a tool for installing and managing multiple PHP versions. This can be really useful if two different
-applications/projects require different versions of PHP, and you are not using virtual machines.
+[phpbrew] adalah alat untuk menginstal dan mengelola beberapa versi PHP. Ini bisa sangat berguna 
+jika dua aplikasi/proyek yang berbeda memerlukan versi PHP yang berbeda, dan Anda tidak menggunakan mesin virtual.
 
-### Install PHP via Liip's binary installer
+### Instal PHP melalui penginstal biner Liip
 
-Another popular option is [php-osx.liip.ch] which provides one liner installation methods for versions 5.3 through 7.3.
-It doesn't overwrite the PHP binaries installed by Apple, but installs everything in a separate location (/usr/local/php5).
+Pilihan populer lainnya adalah [php-osx.liip.ch] yang menyediakan metode instalasi satu baris untuk versi 5.3 hingga 7.3.
+Ia tidak menimpa biner PHP yang diinstal oleh Apple, tetapi menginstal semuanya di lokasi terpisah (/usr/local/php5).
 
-### Compile from Source
+### Kompilasi dari Sumber
 
-Another option that gives you control over the version of PHP you install, is to [compile it yourself][mac-compile].
-In that case be sure to have installed either [Xcode][xcode-gcc-substitution] or Apple's substitute
-["Command Line Tools for XCode"] downloadable from Apple's Developer Center.
+Pilihan lain yang memberi Anda kendali atas versi PHP yang Anda instal adalah [kompilasi sendiri][mac-compile].
+Dalam hal ini, pastikan Anda telah menginstal [Xcode][xcode-gcc-substitution] atau pengganti Apple
+["Command Line Tools for XCode"] yang dapat diunduh dari Pusat Pengembang Apple.
 
-### All-in-One Installers
+### All-in-One Installer
 
-The solutions listed above mainly handle PHP itself, and do not supply things like [Apache][apache], [Nginx][nginx] or a SQL server.
-"All-in-one" solutions such as [MAMP][mamp-downloads] and [XAMPP][xampp] will install these other bits of software for
-you and tie them all together, but ease of setup comes with a trade-off of flexibility.
+Solusi yang tercantum di atas terutama menangani PHP itu sendiri, dan tidak menyediakan hal-hal seperti 
+[Apache][apache], [Nginx][nginx] atau server SQL. Solusi "all-in-one" seperti [MAMP][mamp-downloads] 
+dan [XAMPP][xampp] akan menginstal perangkat lunak lain ini untuk Anda dan menggabungkan semuanya, 
+tetapi kemudahan pengaturan disertai dengan fleksibilitas.
 
 [Homebrew]: https://brew.sh/
 [MacPorts]: https://www.macports.org/install.php
