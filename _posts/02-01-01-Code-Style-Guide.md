@@ -24,12 +24,9 @@ bahkan saat bekerja dengan banyak kode pihak ketiga.
 * [Baca tentang PSR-1][psr1]
 * [Baca tentang PSR-12][psr12]
 * [Baca tentang PSR-4][psr4]
-* [Baca tentang PER Coding Style][per-cs]
-* [Baca tentang PEAR Coding Standards][pear-cs]
-* [Baca tentang Symfony Coding Standards][symfony-cs]
-
-You can use [PHP_CodeSniffer][phpcs] to check code against any one of these recommendations, and plugins for text
-editors like [Sublime Text][st-cs] to be given real-time feedback.
+* [Baca tentang Standar Kode PER][per-cs]
+* [Baca tentang Standar Kode PEAR][pear-cs]
+* [Baca tentang Standar Kode Symfony][symfony-cs]
 
 Anda dapat menggunakan [PHP_CodeSniffer][phpcs] untuk memeriksa kode terhadap salah satu rekomendasi ini, 
 dan plugin untuk penyunting teks seperti [Sublime Text][st-cs] untuk mendapatkan umpan balik waktu nyata (_real-time feedback_).
@@ -42,11 +39,6 @@ Anda dapat memperbaiki tata letak kode secara otomatis dengan menggunakan salah 
 Dan Anda dapat menjalankan phpcs secara manual dari shell:
 
     phpcs -sw --standard=PSR1 file.php
-
-It will show errors and describe how to fix them.
-It can also be helpful to include the `phpcs` command in a git pre-commit hook with the `--filter=GitStaged` CLI argument.
-That way, code which contain violations against the chosen standard cannot enter the repository until those
-violations have been fixed.
 
 Ini akan menunjukkan kesalahan dan menjelaskan cara memperbaikinya.
 Menyertakan perintah `phpcs` dalam kait pra-komit git (_git pre-commit hook_) dengan argumen CLI `--filter=GitStaged` juga dapat membantu.
