@@ -1,10 +1,10 @@
 ---
-title:   Pengaturan macOS
+title:   Pengaturan di macOS
 isChild: true
 anchor:  mac_setup
 ---
 
-## Pengaturan macOS {#mac_setup_title}
+## Pengaturan di macOS {#mac_setup_title}
 
 macOS 12 (Monterey) dan yang lebih baru tidak disertai PHP. macOS versi sebelumnya menyertakan PHP tetapi lebih 
 lambat dari rilis stabil terbaru. Ada beberapa cara untuk menginstal versi PHP terbaru di macOS.
