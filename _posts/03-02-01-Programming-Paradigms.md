@@ -27,10 +27,10 @@ Fungsi dapat diteruskan sebagai argumen ke fungsi lain (fitur yang disebut _Fung
 Rekursi, sebuah fitur yang memungkinkan suatu fungsi memanggil dirinya sendiri, didukung oleh bahasa tersebut, 
 tetapi sebagian besar kode PHP difokuskan pada iterasi.
 
-New anonymous functions (with support for closures) are present since PHP 5.3 (2009).
+Fungsi anonim (_anonymous function_) dengan dukungan untuk penutupan (_closure_) hadir sejak PHP 5.3 (2009).
 
-PHP 5.4 added the ability to bind closures to an object's scope and also improved support for callables such that they
-can be used interchangeably with anonymous functions in almost all cases.
+PHP 5.4 menambahkan kemampuan untuk mengikat penutupan (_bind closure_) ke cakupan objek dan juga meningkatkan 
+dukungan untuk _callable_ sehingga dapat digunakan secara bergantian dengan fungsi anonim dalam hampir semua kasus.
 
 * Continue reading on [Functional Programming in PHP](/pages/Functional-Programming.html)
 * [Baca tentang Anonymous Functions][anonymous-functions]
