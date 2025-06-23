@@ -16,10 +16,6 @@ dan [PER Coding Style][per-cs]. Rekomendasi ini hanyalah seperangkat aturan yang
 seperti Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium, dll. 
 Anda dapat menggunakannya untuk proyek Anda sendiri, atau terus menggunakan gaya pribadi Anda sendiri.
 
-Ideally, you should write PHP code that adheres to a known standard. This could be any combination of PSRs, or one
-of the coding standards made by PEAR or Zend. This means other developers can easily read and work with your code, and
-applications that implement the components can have consistency even when working with lots of third-party code.
-
 Idealnya, Anda harus menulis kode PHP yang mematuhi standar yang diketahui. Ini bisa berupa kombinasi PSR, 
 atau salah satu standar pengodean yang dibuat oleh PEAR atau Zend. Ini berarti pengembang lain dapat dengan mudah 
 membaca dan bekerja dengan kode Anda, dan aplikasi yang mengimplementasikan komponen dapat memiliki konsistensi 
