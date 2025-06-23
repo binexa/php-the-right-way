@@ -1,10 +1,10 @@
 ---
-title  : Pengaturan Windows
+title  : Pengaturan di Windows
 isChild: true
 anchor : windows_setup
 ---
 
-## Pengaturan Windows {#windows_setup_title}
+## Pengaturan di Windows {#windows_setup_title}
 
 Anda dapat mengunduh biner dari [windows.php.net/download][php-downloads]. Setelah mengekstrak PHP, disarankan 
 untuk menyetel [PATH][windows-path] ke akar folder PHP Anda (tempat php.exe berada) sehingga Anda dapat 
