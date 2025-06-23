@@ -41,11 +41,6 @@ can be used interchangeably with anonymous functions in almost all cases.
 
 ### Pemrograman Meta (_Meta Programming_)
 
-PHP supports various forms of meta-programming through mechanisms like the Reflection API and Magic Methods. There are
-many Magic Methods available like `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, etc. that allow
-developers to hook into class behavior. Ruby developers often say that PHP is lacking `method_missing`, but it is
-available as `__call()` and `__callStatic()`.
-
 PHP mendukung berbagai bentuk pemrograman-meta (_meta-programming_) melalui mekanisme seperti _Reflection API_ dan _Magic Methods_. Ada banyak _Magic Methods_ yang tersedia seperti `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, dll. yang memungkinkan pengembang untuk mengaitkan perilaku kelas. Pengembang Ruby sering mengatakan bahwa PHP kekurangan `method_missing`, tetapi tersedia sebagai `__call()` dan `__callStatic()`.
 
 * [Baca tentang Magic Methods][magic-methods]
