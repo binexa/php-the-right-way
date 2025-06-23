@@ -1,77 +1,79 @@
 ---
+title  : Pengaturan di Linux
 isChild: true
-anchor:  linux_setup
+anchor :  linux_setup
 ---
 
-## Linux Setup {#linux_setup_title}
+## Pengaturan di Linux {#linux_setup_title}
 
-Most GNU/Linux distributions come with PHP available from the official repositories, but those packages usually are a little behind the current stable version. There are multiple ways to get newer PHP versions on such distributions.
+Sebagian besar distribusi GNU/Linux menyertakan PHP yang tersedia dari repositori resmi, tetapi paket-paket tersebut biasanya sedikit tertinggal dari versi stabil saat ini. Ada beberapa cara untuk mendapatkan versi PHP yang lebih baru pada distribusi tersebut.
 
-### Ubuntu-based distributions
+### Distribusi Berbasis Ubuntu
 
-On Ubuntu and Debian-based GNU/Linux distributions, for instance, the best alternatives for native packages are provided and maintained by [Ondřej Surý][Ondrej Sury Blog], through his Personal Package Archive (PPA) on Ubuntu and DPA/bikeshed on Debian. Find instructions for each of these below.
+Pada distribusi GNU/Linux berbasis Ubuntu dan Debian, misalnya, alternatif terbaik untuk paket asli disediakan dan dikelola oleh [Ondřej Surý][Ondrej Sury Blog], melalui Arsip Paket Pribadi (PPA) miliknya di Ubuntu dan DPA/bikeshed di Debian. Temukan petunjuk untuk masing-masing di bawah ini.
 
-For Ubuntu distributions, the [PPA by Ondřej Surý][Ondrej Sury PPA] provides supported PHP versions along with many PECL extensions. To add this PPA to your system, perform the following steps in your terminal:
+Untuk distribusi Ubuntu, [PPA oleh Ondřej Surý][Ondrej Sury PPA] menyediakan versi PHP yang didukung beserta banyak ekstensi PECL. Untuk menambahkan PPA ini ke sistem Anda, lakukan langkah-langkah berikut di terminal Anda:
 
-1. First, add the PPA to your system's software sources using the command:
+1. Pertama, tambahkan PPA ke sumber perangkat lunak sistem Anda menggunakan perintah:
 
    ```bash
    sudo add-apt-repository ppa:ondrej/php
    ```
 
-2. After adding the PPA, update your system's package list:
+2. Setelah menambahkan PPA, perbarui daftar paket sistem Anda:
 
    ```bash
    sudo apt update
    ```
 
-This will ensure that your system can access and install the latest PHP packages available in the PPA.
+Ini akan memastikan bahwa sistem Anda dapat mengakses dan menginstal paket PHP terbaru yang tersedia di PPA.
 
-### Debian-based distributions
+### Distribusi Berbasis Debian
 
-For Debian-based distributions, Ondřej Surý also provides a [bikeshed][bikeshed] (Debian equivalent of a PPA). To add the bikeshed to your system and update it, follow these steps:
+Untuk distribusi berbasis Debian, Ondřej Surý juga menyediakan [bikeshed][bikeshed] (padanan Debian untuk PPA). 
+Untuk menambahkan bikeshed ke sistem Anda dan memperbaruinya, ikuti langkah-langkah berikut:
 
-1. Ensure that you have root access. If not, you might need to use `sudo` for the following commands.
+1. Pastikan Anda memiliki akses root. Jika tidak, Anda mungkin perlu menggunakan `sudo` untuk perintah berikut.
 
-2. Update your system's package list:
+2. Perbarui daftar paket sistem Anda:
 
    ```bash
    sudo apt-get update
    ```
 
-3. Install `lsb-release`, `ca-certificates`, and `curl`:
+3. Instal `lsb-release`, `ca-certificates`, dan `curl`:
 
    ```bash
    sudo apt-get -y install lsb-release ca-certificates curl
    ```
 
-4. Download the signing key for the repository:
+4. Unduh kunci penandatanganan untuk repositori:
 
    ```bash
    sudo curl -sSLo /usr/share/keyrings/deb.sury.org-php.gpg https://packages.sury.org/php/apt.gpg
    ```
 
-5. Add the repository to your system's software sources:
+5. Tambahkan repositori ke sumber perangkat lunak sistem Anda:
 
    ```bash
    sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/deb.sury.org-php.gpg] https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
    ```
 
-6. Finally, update your system's package list again:
+6. Terakhir, perbarui lagi daftar paket sistem Anda:
 
    ```bash
    sudo apt-get update
    ```
 
-With these steps, your system will be able to install the latest PHP packages from the bikeshed.
+Dengan langkah-langkah ini, sistem Anda akan dapat menginstal paket PHP terbaru dari bikeshed.
 
-### RPM-based distributions
+### Distribusi Berbasis RPM
 
-On RPM-based distributions (CentOS, Fedora, RHEL, etc.) you can use the [Remi's RPM repository][remi-repo] to install the latest PHP version or to have multiple PHP versions simultaneously available.
+Pada distribusi berbasis RPM (CentOS, Fedora, RHEL, dll.) Anda dapat menggunakan [repositori RPM Remi][remi-repo] untuk menginstal versi PHP terbaru atau menyediakan beberapa versi PHP secara bersamaan.
 
-There is a [configuration wizard][remi-wizard] available to configure your RPM-based distribution.
+Tersedia [wizard konfigurasi][remi-wizard] untuk mengonfigurasi distribusi berbasis RPM Anda.
 
-All that said, you can always use containers or compile the PHP source code from scratch.
+Meski begitu, Anda selalu dapat menggunakan kontainer atau mengompilasi kode sumber PHP dari awal.
 
 [Ondrej Sury Blog]: https://deb.sury.org/
 [Ondrej Sury PPA]: https://launchpad.net/~ondrej/+archive/ubuntu/php
