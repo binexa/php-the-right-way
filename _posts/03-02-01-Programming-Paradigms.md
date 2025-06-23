@@ -33,22 +33,24 @@ PHP 5.4 added the ability to bind closures to an object's scope and also improve
 can be used interchangeably with anonymous functions in almost all cases.
 
 * Continue reading on [Functional Programming in PHP](/pages/Functional-Programming.html)
-* [Read about Anonymous Functions][anonymous-functions]
-* [Read about the Closure class][closure-class]
-* [More details in the Closures RFC][closures-rfc]
-* [Read about Callables][callables]
-* [Read about dynamically invoking functions with `call_user_func_array()`][call-user-func-array]
+* [Baca tentang Anonymous Functions][anonymous-functions]
+* [Baca tentang Closure class][closure-class]
+* [Rincian lebih lanjut ada di Closures RFC][closures-rfc]
+* [Baca tentang Callables][callables]
+* [Baca tentang pemanggilan fungsi secara dinamis dengan `call_user_func_array()`][call-user-func-array]
 
-### Meta Programming
+### Pemrograman Meta (_Meta Programming_)
 
 PHP supports various forms of meta-programming through mechanisms like the Reflection API and Magic Methods. There are
 many Magic Methods available like `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, etc. that allow
 developers to hook into class behavior. Ruby developers often say that PHP is lacking `method_missing`, but it is
 available as `__call()` and `__callStatic()`.
 
-* [Read about Magic Methods][magic-methods]
-* [Read about Reflection][reflection]
-* [Read about Overloading][overloading]
+PHP mendukung berbagai bentuk pemrograman-meta (_meta-programming_) melalui mekanisme seperti _Reflection API_ dan _Magic Methods_. Ada banyak _Magic Methods_ yang tersedia seperti `__get()`, `__set()`, `__clone()`, `__toString()`, `__invoke()`, dll. yang memungkinkan pengembang untuk mengaitkan perilaku kelas. Pengembang Ruby sering mengatakan bahwa PHP kekurangan `method_missing`, tetapi tersedia sebagai `__call()` dan `__callStatic()`.
+
+* [Baca tentang Magic Methods][magic-methods]
+* [Baca tentang Reflection][reflection]
+* [Baca tentang Overloading][overloading]
 
 
 [oop]: https://www.php.net/language.oop5
