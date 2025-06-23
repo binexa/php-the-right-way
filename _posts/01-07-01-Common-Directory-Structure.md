@@ -16,4 +16,4 @@ Untuk setiap tim, CMS, atau kerangka kerja tempat seseorang bekerja, struktur di
 
 [Paul M. Jones]: https://paul-m-jones.com/
 [Standard PHP Package Skeleton]: https://github.com/php-pds/skeleton
-[Composer]: /#composer_and_packagist
+[Composer]: {{ site.baseurl }}/#composer_and_packagist
