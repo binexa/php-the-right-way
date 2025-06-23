@@ -1,40 +1,49 @@
 ---
+title : Panduan Gaya Penulisan Kode
 anchor: code_style_guide
 ---
 
-# Code Style Guide {#code_style_guide_title}
+# Panduan Gaya Penulisan Kode (_Code Style Guide_) {#code_style_guide_title}
 
-The PHP community is large and diverse, composed of innumerable libraries, frameworks, and components. It is common for
-PHP developers to choose several of these and combine them into a single project. It is important that PHP code adheres
-(as close as possible) to a common code style to make it easy for developers to mix and match various libraries for
-their projects.
+Komunitas PHP sangat besar dan beragam, terdiri dari pustaka (_libraries_), kerangka kerja (_frameworks_), 
+dan komponen (_compinents_) yang tak terhitung banyaknya. Pengembang PHP biasanya memilih beberapa di antaranya 
+dan menggabungkannya menjadi satu proyek. Penting agar kode PHP mengikuti (sedekat mungkin) gaya penulisan kode umum (_common code style_)
+agar pengembang dapat dengan mudah mencampur dan mencocokkan berbagai pustaka untuk proyek mereka.
 
-The [Framework Interop Group][fig] has proposed and approved a series of style recommendations. Not all of them relate
-to code-style, but those that do are [PSR-1][psr1], [PSR-12][psr12], [PSR-4][psr4] and [PER Coding Style][per-cs]. These
-recommendations are merely a set of rules that many projects like Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK,
-FuelPHP, Lithium, etc. are adopting. You can use them for your own projects, or continue to use your own
-personal style.
+[Framework Interop Group][fig] telah mengusulkan dan menyetujui serangkaian rekomendasi gaya. 
+Tidak semuanya terkait dengan gaya penulisan kode, tetapi yang terkait adalah [PSR-1][psr1], [PSR-12][psr12], [PSR-4][psr4] 
+dan [PER Coding Style][per-cs]. Rekomendasi ini hanyalah seperangkat aturan yang diadopsi oleh banyak proyek 
+seperti Drupal, Zend, Symfony, Laravel, CakePHP, phpBB, AWS SDK, FuelPHP, Lithium, dll. 
+Anda dapat menggunakannya untuk proyek Anda sendiri, atau terus menggunakan gaya pribadi Anda sendiri.
 
 Ideally, you should write PHP code that adheres to a known standard. This could be any combination of PSRs, or one
 of the coding standards made by PEAR or Zend. This means other developers can easily read and work with your code, and
 applications that implement the components can have consistency even when working with lots of third-party code.
 
-* [Read about PSR-1][psr1]
-* [Read about PSR-12][psr12]
-* [Read about PSR-4][psr4]
-* [Read about PER Coding Style][per-cs]
-* [Read about PEAR Coding Standards][pear-cs]
-* [Read about Symfony Coding Standards][symfony-cs]
+Idealnya, Anda harus menulis kode PHP yang mematuhi standar yang diketahui. Ini bisa berupa kombinasi PSR, 
+atau salah satu standar pengodean yang dibuat oleh PEAR atau Zend. Ini berarti pengembang lain dapat dengan mudah 
+membaca dan bekerja dengan kode Anda, dan aplikasi yang mengimplementasikan komponen dapat memiliki konsistensi 
+bahkan saat bekerja dengan banyak kode pihak ketiga.
+
+* [Baca tentang PSR-1][psr1]
+* [Baca tentang PSR-12][psr12]
+* [Baca tentang PSR-4][psr4]
+* [Baca tentang PER Coding Style][per-cs]
+* [Baca tentang PEAR Coding Standards][pear-cs]
+* [Baca tentang Symfony Coding Standards][symfony-cs]
 
 You can use [PHP_CodeSniffer][phpcs] to check code against any one of these recommendations, and plugins for text
 editors like [Sublime Text][st-cs] to be given real-time feedback.
 
-You can fix the code layout automatically by using one of the following tools:
+Anda dapat menggunakan [PHP_CodeSniffer][phpcs] untuk memeriksa kode terhadap salah satu rekomendasi ini, 
+dan plugin untuk penyunting teks seperti [Sublime Text][st-cs] untuk mendapatkan umpan balik waktu nyata (_real-time feedback_).
 
-- One is the [PHP Coding Standards Fixer][phpcsfixer] which has a very well tested codebase.
-- Also, the [PHP Code Beautifier and Fixer][phpcbf] tool which is included with PHP_CodeSniffer can be used to adjust your code accordingly.
+Anda dapat memperbaiki tata letak kode secara otomatis dengan menggunakan salah satu alat berikut:
 
-And you can run phpcs manually from shell:
+- Salah satunya adalah [PHP Coding Standards Fixer][phpcsfixer] yang memiliki basis kode yang telah teruji dengan sangat baik.
+- Selain itu, alat [PHP Code Beautifier and Fixer][phpcbf] yang disertakan dengan PHP_CodeSniffer dapat digunakan untuk menyesuaikan kode Anda.
+
+Dan Anda dapat menjalankan phpcs secara manual dari shell:
 
     phpcs -sw --standard=PSR1 file.php
 
@@ -43,20 +52,23 @@ It can also be helpful to include the `phpcs` command in a git pre-commit hook w
 That way, code which contain violations against the chosen standard cannot enter the repository until those
 violations have been fixed.
 
-If you have PHP_CodeSniffer, then you can fix the code layout problems reported by it, automatically, with the
+Ini akan menunjukkan kesalahan dan menjelaskan cara memperbaikinya.
+Menyertakan perintah `phpcs` dalam kait pra-komit git (_git pre-commit hook_) dengan argumen CLI `--filter=GitStaged` juga dapat membantu.
+Dengan demikian, kode yang berisi pelanggaran terhadap standar yang dipilih tidak dapat masuk ke repositori hingga pelanggaran tersebut telah diperbaiki.
+
+Jika Anda memiliki PHP_CodeSniffer, maka Anda dapat memperbaiki masalah tata letak kode yang dilaporkan olehnya, secara otomatis, dengan
 [PHP Code Beautifier and Fixer][phpcbf].
 
     phpcbf -w --standard=PSR1 file.php
 
-Another option is to use the [PHP Coding Standards Fixer][phpcsfixer].
-It will show what kind of errors the code structure had before it fixed them.
+Pilihan lainnya adalah menggunakan [PHP Coding Standards Fixer][phpcsfixer].
+Alat ini akan menunjukkan jenis kesalahan yang terjadi pada struktur kode sebelum memperbaikinya.
 
     php-cs-fixer fix -v --rules=@PSR1 file.php
 
-English is preferred for all symbol names and code infrastructure. Comments may be written in any language easily
-readable by all current and future parties who may be working on the codebase.
+Bahasa Inggris lebih disukai untuk semua nama simbol dan infrastruktur kode. Komentar dapat ditulis dalam bahasa apa pun yang mudah dibaca oleh semua pihak saat ini dan masa mendatang yang mungkin bekerja pada basis kode.
 
-Finally, a good supplementary resource for writing clean PHP code is [Clean Code PHP][cleancode].
+Terakhir, sumber tambahan yang bagus untuk menulis kode PHP yang bersih adalah [Clean Code PHP][cleancode].
 
 [fig]: https://www.php-fig.org/
 [psr1]: https://www.php-fig.org/psr/psr-1/
