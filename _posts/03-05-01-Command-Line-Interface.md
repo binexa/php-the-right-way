@@ -1,28 +1,30 @@
 ---
+title: Antarmuka Baris Perintah (CLI)
 isChild: true
 anchor:  command_line_interface
 ---
 
-## Command Line Interface {#command_line_interface_title}
+## Antarmuka Baris Perintah (CLI) {#command_line_interface_title}
 
-PHP was created to write web applications, but is also useful for scripting command line interface (CLI) programs.
-Command line PHP programs can help automate common tasks like testing, deployment, and application administration.
+PHP diciptakan untuk menulis aplikasi web, tetapi juga berguna untuk membuat skrip program antarmuka baris perintah 
+(_command line interface_), disingkat CLI. Program PHP baris perintah dapat membantu mengotomatiskan tugas-tugas 
+umum seperti pengujian, penerapan, dan administrasi aplikasi.
 
-CLI PHP programs are powerful because you can use your app's code directly without having to create and secure a web
-GUI for it. Just be sure **not** to put your CLI PHP scripts in your public web root!
+Program PHP CLI sangat hebat karena Anda dapat menggunakan kode aplikasi Anda secara langsung 
+tanpa harus membuat dan mengamankan GUI web untuknya. Pastikan **tidak** meletakkan skrip PHP CLI Anda di root web publik Anda!
 
-Try running PHP from your command line:
+Coba jalankan PHP dari baris perintah Anda:
 
 {% highlight console %}
 > php -i
 {% endhighlight %}
 
-The `-i` option will print your PHP configuration just like the [`phpinfo()`][phpinfo] function.
+Opsi `-i` akan mencetak konfigurasi PHP Anda seperti fungsi [`phpinfo()`][phpinfo].
 
-The `-a` option provides an interactive shell, similar to ruby's IRB or python's interactive shell. There are a number
-of other useful [command line options][cli-options], too.
+Opsi `-a` menyediakan shell interaktif, mirip dengan IRB milik Ruby atau shell interaktif milik Python. 
+Ada sejumlah [opsi baris perintah][cli-options] lain yang berguna juga.
 
-Let's write a simple "Hello, $name" CLI program. To try it out, create a file named `hello.php`, as below.
+Mari kita tulis program CLI sederhana "Halo, $name". Untuk mencobanya, buat file bernama `hello.php`, seperti di bawah ini.
 
 {% highlight php %}
 <?php
@@ -34,14 +36,14 @@ $name = $argv[1];
 echo "Hello, $name" . PHP_EOL;
 {% endhighlight %}
 
-PHP sets up two special variables based on the arguments your script is run with. [`$argc`][argc] is an integer
-variable containing the argument *count* and [`$argv`][argv] is an array variable containing each argument's *value*.
-The first argument is always the name of your PHP script file, in this case `hello.php`.
+PHP menyiapkan dua variabel khusus berdasarkan argumen yang digunakan untuk menjalankan skrip Anda. 
+[`$argc`][argc] adalah variabel integer yang berisi argumen *count* dan [`$argv`][argv] adalah variabel array yang berisi *value* setiap argumen. 
+Argumen pertama selalu berupa nama file skrip PHP Anda, dalam hal ini `hello.php`.
 
-The `exit()` expression is used with a non-zero number to let the shell know that the command failed. Commonly used
-exit codes can be found [here][exit-codes].
+Ekspresi `exit()` digunakan dengan angka bukan nol untuk memberi tahu shell bahwa perintah gagal. 
+Kode keluar yang umum digunakan dapat ditemukan [di sini][exit-codes].
 
-To run our script, above, from the command line:
+Untuk menjalankan skrip kita di atas, dari baris perintah:
 
 {% highlight console %}
 > php hello.php
@@ -51,7 +53,7 @@ Hello, world
 {% endhighlight %}
 
 
- * [Learn about running PHP from the command line][php-cli]
+ * [Pelajari tentang menjalankan PHP dari baris perintah][php-cli]
 
 [phpinfo]: https://www.php.net/function.phpinfo
 [cli-options]: https://www.php.net/features.commandline.options
