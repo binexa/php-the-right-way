@@ -1,17 +1,19 @@
 ---
+title: Manajemen Ketergantungan
 anchor: dependency_management
 ---
 
-# Dependency Management {#dependency_management_title}
+# Manajemen Ketergantungan {#dependency_management_title}
 
-There are a ton of PHP libraries, frameworks, and components to choose from. Your project will likely use 
-several of them — these are project dependencies. PHP did not have a good way to manage
-these project dependencies. Even if you managed them manually, you still had to worry about autoloaders.
-That is no longer an issue.
+Ada banyak sekali pustaka (_library_), kerangka kerja (_framework_), dan komponen (_component_) PHP yang dapat dipilih. 
+Proyek Anda kemungkinan akan menggunakan beberapa di antaranya — ini adalah ketergantungan proyek. 
+PHP tidak memiliki cara yang baik untuk mengelola ketergantungan proyek ini. Bahkan jika Anda mengelolanya secara manual, 
+Anda tetap harus mengkhawatirkan pemuat otomatis (_autoloader_). Itu bukan lagi masalah.
 
-Currently there are two major package management systems for PHP - [Composer] and [PEAR]. Composer is currently
-the most popular package manager for PHP, however for a long time PEAR was the primary package manager in use.
-Knowing PEAR's history is a good idea, since you may still find references to it even if you never use it.
+Saat ini ada dua sistem manajemen paket utama untuk PHP - [Composer] dan [PEAR]. 
+Composer saat ini merupakan manajer paket paling populer untuk PHP, namun untuk waktu yang lama 
+PEAR merupakan manajer paket utama yang digunakan. Mengetahui sejarah PEAR merupakan ide yang bagus, karena 
+Anda mungkin masih menemukan referensi ke sana meskipun Anda tidak pernah menggunakannya.
 
-[Composer]: /#composer_and_packagist
-[PEAR]: /#pear
+[Composer]: {{ site.baseurl }}/#composer_and_packagist
+[PEAR]: {{ site.baseurl }}/#pear
