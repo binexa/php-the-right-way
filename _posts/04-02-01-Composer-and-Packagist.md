@@ -62,8 +62,7 @@ ini akan memberi tahu PHP untuk menggunakan autoloader Composer bagi ketergantun
 require 'vendor/autoload.php';
 {% endhighlight %}
 
-Now you can use your project dependencies, and they'll be autoloaded on demand.
-Sekarang Anda dapat menggunakan ketergantungan (_dependency_) proyek Anda, dan ketergantungan tersebut akan dimuat otomatis sesuai permintaan.
+Sekarang Anda dapat menggunakan ketergantungan proyek Anda, dan ketergantungan tersebut akan dimuat otomatis sesuai permintaan.
 
 ### Memperbarui ketergantungan Anda
 
@@ -91,12 +90,9 @@ dan memberi tahu Anda jika Anda perlu memperbarui salah satu dependensi.
 
 ### Menangani dependensi global dengan Composer
 
-Composer can also handle global dependencies and their binaries. Usage is straight-forward, all you need
-to do is prefix your command with `global`. If for example you wanted to install PHPUnit and have it
-available globally, you'd run the following command:
-
 Composer juga dapat menangani dependensi global dan binernya. Penggunaannya mudah, yang perlu Anda lakukan hanyalah 
-mengawali perintah Anda dengan `global`. Misalnya, jika Anda ingin menginstal PHPUnit dan membuatnya tersedia secara global, Anda akan menjalankan perintah berikut:
+mengawali perintah Anda dengan `global`. Misalnya, jika Anda ingin menginstal PHPUnit dan membuatnya tersedia secara global, 
+Anda akan menjalankan perintah berikut:
 
 {% highlight console %}
 composer global require phpunit/phpunit
